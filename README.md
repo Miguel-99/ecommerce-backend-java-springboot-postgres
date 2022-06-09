@@ -2,7 +2,7 @@
 
 ## Prerequisites
 -IntelliJ IDEA
-- JKD11
+- JDK11
 - Docker
 
 Environment setup
@@ -16,7 +16,7 @@ Database setup
 3. `docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres`
 4. `docker exec -it postgres bash`
 5. `psql -U postgres`
-6. `create database ecommerce`
+6. `create database ecommerce;`
 7. you can close the terminal 
 
 Now you can start the app on intellij
