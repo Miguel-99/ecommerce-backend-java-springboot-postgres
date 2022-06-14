@@ -24,4 +24,5 @@ public class ManufacturedItem {
         joinColumns = @JoinColumn(name = "manufactured_item_id"),
         inverseJoinColumns = @JoinColumn(name = "supply_item_id"))
     private List<SupplyItem> supplyItems;
+
 }
