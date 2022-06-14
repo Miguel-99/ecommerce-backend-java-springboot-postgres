@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/ecommerce
-    username: ${POSTGRES_USERNAME}
-    password: ${POSTGRES_PASSWORD}
+    url: jdbc:postgresql://localhost:49153/ecommerce
+    username: postgres
+    password: postgrespw
     driver-class-name: org.postgresql.Driver
   jpa:
     show-sql: true
